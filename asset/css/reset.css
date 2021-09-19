@@ -1,0 +1,58 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, textarea, 
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, address {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+/*  font-size: 12px;
+  font-size:inherit;
+  font-family: 'Nanum Gothic';
+  font-family: inherit;
+  font-style:normal;
+  font-style: inherit;*/
+  vertical-align: baseline;
+  -webkit-text-size-adjust:none;  
+  text-align:left;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+ol, ul, li {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+div {
+  display:block;
+}
+img { vertical-align:middle; }
+select, input {font-family:'Noto Sans KR'}
+a {color:inherit; font-size:inherit; font-weight:inherit; font-family:inherit;}
+input {  border-radius:0px 0px; padding:1px 0; } 
+select { border-radius:0px 0px;}
+
+body { font-size: 16px; font-size:inherit; font-weight: normal; font-family:'Roboto Mono', 'Noto Sans KR';  letter-spacing: -1px;  word-break: keep-all; }
