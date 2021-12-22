@@ -1,4 +1,7 @@
 # ThanksforComing
+💡 Notion <br>
+https://legend-salamander-66c.notion.site/PHP-MySQL-Thanks-for-Coming-bb32eecb172a480ab5fd4e3bffbbe051
+
 🍊 For User   
 https://myoung9412.cafe24.com/
 
