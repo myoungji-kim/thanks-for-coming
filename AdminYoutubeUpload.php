@@ -75,12 +75,12 @@
 				<? } ?>
 
 				<tr> 
-					<td> <input type="hidden" name="Youtube_No" value="<?=$No;?>"> </td>
+					<td> <input type="hidden" name="Youtube_No" value="<?=$No?>"> </td>
 					<td> <input type="hidden" name="Mode" value="<?=$Mode?>"> </td>
 				</tr>
 			</div>
 
-			<input type = "text" name = "URL" class = "ContentsTitle" placeholder = "URL을 입력하세요" value="<?=$URL;?>">
+			<input type = "text" name = "URL" class = "ContentsTitle" placeholder = "URL을 입력하세요" value="<?=$URL?>">
 			<input type = "file" name = "Thumbnail" class = "Playlist">
 
 			<input type = "text" name = "Title" class = "ContentsTitle" placeholder = "제목을 입력하세요" value="<?=$Title?>">

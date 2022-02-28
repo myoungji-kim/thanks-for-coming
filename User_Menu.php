@@ -42,12 +42,9 @@
 				<img src = "./asset/images/youtube_icon.png">
 				Go Youtube
 			</a>
-			<a class = "Text" link rel="stylesheet" type="text/css" href="https://www.instagram.com/n_chi_c/"> 
+			<a class = "Text" link rel="stylesheet" type="text/css" href="https://www.instagram.com/dding_ji_k/"> 
 				<img src = "./asset/images/insta_icon.png">
 				Go Instagram
-			</a>
-			<a class = "Text" link rel="stylesheet" type="text/css" href="https://book.naver.com/bookdb/book_detail.nhn?bid=17946850"> 
-				Buy Some Books
 			</a>
 		</div>
 

@@ -41,7 +41,7 @@
     } 
     else if ($_POST['Mode']=="EDIT") { 
         $no = $_POST['Youtube_No'];
-        $sql="UPDATE Youtube SET Youtube_URL='$URL'".$A.", Youtube_Title='$Title', Youtube_SubTitle='$SubTitle', Youtube_Playlist='$Playlist', Youtube_Text='$TextBody' WHERE Youtube_No=$no;";
+        $sql="UPDATE Youtube SET Youtube_URL='$URL'".$A.", Youtube_Title='$Title', Youtube_SubTitle='$SubTitle', Youtube_Playlist='$Playlist', Youtube_Text='$TextBody' WHERE Youtube_No='$no';";
     } 
     else if ($_POST['Mode']=="DEL"){
         $no = $_POST['Youtube_No'];
@@ -53,6 +53,7 @@
     if (mysqli_query($connect, $sql)){
         // echo "레코드 추가 성공";
     } else {
+        echo "sql문: ".$sql;
         echo "실패:" .mysqli_error($connect);
     }
 

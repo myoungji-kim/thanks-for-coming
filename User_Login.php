@@ -44,7 +44,7 @@
 			}
 
 		///////////////////////////////////////////////////////////////////////
-			Kakao.init('-');
+			Kakao.init('b57f6faa985f2a6771a6f19618cd919c');
 			Kakao.isInitialized();
 
 			function KakaoLogin(){

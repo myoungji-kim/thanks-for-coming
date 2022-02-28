@@ -72,7 +72,7 @@
 						<? } ?>
 					</tr>
 					<tr> 
-						<td> <input type="hidden" name="Member_No" value="<?=$No;?>"> </td>
+						<td> <input type="hidden" name="Member_No" value="<?=$No?>"> </td>
 						<td> <input type="hidden" name="Mode" value="<?=$Mode?>"> </td> 
 					</tr>
 					<tr> <td class = "Rows">
@@ -82,10 +82,11 @@
 						<? if (isset($_GET['no'])) { ?>
 							<div class = "Text FontsGray">
 								<span> <?=$Role?> </span>
+								<input type = "hidden" name = "MemberRole" value = "<?=$Role?>">
 							</div>
 						<? } else { ?>
 							<div class = "Text FontsGray">
-								<input type = "text" name = "MemberRole" placeholder="역할을 입력하세요(사용자/관리자)">
+								<input type = "text" name = "MemberRole" value = "<?=$Role?>"placeholder="역할을 입력하세요(사용자/관리자)">
 							</div>
 						<? } ?>
 					</td> </tr>

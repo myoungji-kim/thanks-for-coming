@@ -41,7 +41,7 @@
         $row=mysqli_fetch_assoc($result);
 
         if (isset($row['Member_ID']) && $row['Member_Role']!=$UserMode && !isset($_POST['UserKakao'])){
-            echo "<script type=\"text/javascript\"> alert('다시 입력해주세요.'); history.back(); </script>";
+            echo "<script type=\"text/javascript\"> alert('로그인 실패'); history.back(); </script>";
             exit();
         }
         else if (!isset($row['Member_ID']) && !isset($_POST['UserKakao'])){

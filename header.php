@@ -19,14 +19,14 @@
       <meta property="og:image" content="">
       <meta name="description" content="">
       <link rel="shortcut icon" href="">
-      <link rel="stylesheet" type="text/css" href="../asset/css/reset.css" data-youshallnotparse="true"/>
-      <link rel="stylesheet" type="text/css" href="../asset/css/common.css" />
-      <link rel="stylesheet" type="text/css" href="../asset/css/media.css" />
+      <link rel="stylesheet" type="text/css" href="./asset/css/reset.css" data-youshallnotparse="true"/>
+      <link rel="stylesheet" type="text/css" href="./asset/css/common.css" />
+      <link rel="stylesheet" type="text/css" href="./asset/css/media.css" />
       <link rel="preconnect" href="https://fonts.gstatic.com">
       <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;700;900&display=swap" rel="stylesheet">
-      <script type ="text/javascript" src="../asset/script/jquery-3.5.1.min.js"> </script>
-      <link rel="stylesheet" type ="text/css" href="../asset/script/jquery-ui-1.12.1.custom/jquery-ui.css"> 
-      <script type ="text/javascript" src="../asset/script/jquery-ui-1.12.1.custom/jquery-ui.js"> </script>
+      <script type ="text/javascript" src="./asset/script/jquery-3.5.1.min.js"> </script>
+      <link rel="stylesheet" type ="text/css" href="./asset/script/jquery-ui-1.12.1.custom/jquery-ui.css"> 
+      <script type ="text/javascript" src="./asset/script/jquery-ui-1.12.1.custom/jquery-ui.js"> </script>
   </head>
   <script type ="text/javascript">
       $.datepicker.setDefaults({
