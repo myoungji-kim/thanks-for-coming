@@ -17,7 +17,7 @@
     $row=mysqli_fetch_assoc($result);
 
     if (isset($row['Member_ID']) && $row['Member_Role']!=$UserMode){
-        echo "<script type=\"text/javascript\"> alert('꾸에에에엑'); history.back(); </script>";
+        echo "<script type=\"text/javascript\"> alert('아이디 또는 패스워드가 잘못되었습니다.'); history.back(); </script>";
         exit();
     }
     else if (!isset($row['Member_ID']) && !isset($_POST['UserKakao'])){
