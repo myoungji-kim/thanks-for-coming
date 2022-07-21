@@ -15,7 +15,6 @@
 			<a <?=($_SERVER['PHP_SELF']=="/User_YoutubeUnivList.php")||($_SERVER['PHP_SELF']=="/User_YoutubeUniv.php")? "class = \"Select\"":"class = \"NonSelect\""?> href = "./User_YoutubeUnivList.php"> Playlist </a>
 			<a <?=($_SERVER['PHP_SELF']=="/User_YoutubeMZ.php")? "class = \"Select\"":"class = \"NonSelect\""?> href = "./User_YoutubeMZ.php"> All Music </a>
 			<a <?=($_SERVER['PHP_SELF']=="/User_InstaNunCo.php")? "class = \"Select\"":"class = \"NonSelect\""?> href = "./User_InstaNunCo.php"> Trend Info </a>
-			<a <?=($_SERVER['PHP_SELF']=="/User_Question.php")? "class = \"Select\"":"class = \"NonSelect\""?> href = "./User_Question.php"> Q&A </a>
 		</ul>
 	</div> 
 	
@@ -35,9 +34,6 @@
 		</a>
 		<div class = "TopLine"> </div>
 		<div class = "SelectPage">
-			<!-- <span class = "Text"> About 너 때는 말이야 </span>  -->
-			<span class = "Text"> Recently Viewed </span> 
-			<span class = "Text"> My Favorite </span> 
 			<a class = "Text" link rel="stylesheet" type="text/css" href="https://www.youtube.com/channel/UChdiP_6gHHG2OIINgIf_LGw"> 
 				<img src = "./asset/images/youtube_icon.png">
 				Go Youtube

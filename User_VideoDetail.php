@@ -35,17 +35,6 @@
 					<span class = "Date"> 게시일 <?= date("Y.m.d",strtotime ($Date));?> </span>
 				</div>
 			</div>
-			<div class = "RightBox">
-				<div class = "InBox">
-					<a class = "IconHeart" onclick = "ClickHeart()">
-						<img id = "IconHeart" src = "./asset/images/Heart_Empty.png">
-						<span class = "HeartNum"> 12 </span>
-					</a>
-					<div class = "IconShare">
-						<img src = "./asset/images/IconShare.svg">
-					</div>
-				</div>
-			</div>
 		</div>
 
 		<div class = "VideoCategory">

@@ -5,8 +5,7 @@
 
 		<div class = "LoginBox">
 			<div class = "Title">
-				<span class = "blue" > Thanks for </span>
-				<span class = "white"> Coming </span>
+				<span class = "blue" > Thanks for Coming </span>
 			</div>
 			<div class = "clear"> </div>
 			<span class = "SubTitle">
@@ -37,11 +36,6 @@
 			</table>
 
 			<a onclick="LogIn()" class = "BtnLogin"> <span> Log In </span> </a>
-
-			<div class = "JoinBox">
-				<span class = "NotMember"> Not a member? </span>
-				<a class = "CreateID"> Create your account </a>
-			</div>
 		</div>
 
 		<script type="text/javascript">

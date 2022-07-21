@@ -44,7 +44,7 @@
 					<tr id = "Rows">
 							<td class = "MemberNo"> <?=$row['Member_No'];?> </td>
 							<td class = "BodyText"> 
-								<a class = "BodyTitle" href="MembersUpload.php?no=<?=$row['Member_No']?>"> <?=$row['Member_Name'];?> </a>
+								<a class = "BodyTitle" href="AdminMembersUpload.php?no=<?=$row['Member_No']?>"> <?=$row['Member_Name'];?> </a>
 								<span class = "MainText"> <?=$row['Member_ID'];?> </span> 
 							</td>
 							<td class = "Sex"> <span class = "Text"> <?=$row['Member_Sex'];?> </span> </td>

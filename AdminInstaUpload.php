@@ -48,7 +48,7 @@
 
 			<div class = "Btn">
 				<a class = "Text" onclick = "history.back();"> 취소 </a>
-				<a class = "Text"> 예약 </a>
+				<!-- <a class = "Text"> 예약 </a> -->
 				<input type = "button" id = "InstaSave" onclick = "Insta_Save()" class = "Upload" value="<?=$BtnUpload?>">
 			</div>
 		</div>

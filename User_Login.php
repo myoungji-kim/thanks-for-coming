@@ -26,7 +26,7 @@
 		<div class = "User_LoginHelp">
 			<a href = "./User_Join.php"> 회원가입하기 </a>
 			<span> / </span>
-			<a href="User_FindIDPW.php"> 아이디·비밀번호찾기 </a>
+			<a href="./User_FindIDPW.php"> 아이디 찾기 </a>
 		</div>
 		<a class = "User_KaKaoLoginBtn" onclick="KakaoLogin()"> <img src="./asset/images/snsLogin/kakao_login_large.png"> </a>
 	

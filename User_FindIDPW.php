@@ -4,13 +4,8 @@
 	<div class = "NaviBarBG"> </div>
 	<div class = "NaviBar">
 		<a class = "iconBack" onclick="history.back()"> <img src = "./asset/images/iconBack.svg"> </a>
-		<a class = "Title" href = "./index.php"> 아이디/비밀번호 찾기 </a>
+		<a class = "Title" href = "./index.php"> 아이디 찾기 </a>
 	</div>
-	<div class = "OptionIDPW">
-		<a class = "SelectIDPW" id = "ID" onclick="ChangeID()"> <span> 아이디 찾기 </span> </a>
-		<a class = "NonSelectIDPW" id = "PW" onclick="ChangePW()"> <span> 비밀번호 찾기 </span> </a>
-	</div>
-
 	<form action = "User_IntroduceIDPW.php" method="post" enctype="multipart/form-data" id = "FindID">
 		<input type ="hidden" name = "UserMode" value="1">
 
@@ -26,7 +21,7 @@
 	</form>
 
 	<!-- //////////////////////////////////// -->
-
+<!-- 
 	<form action = "User_IntroduceIDPW.php" method="post" enctype="multipart/form-data" id = "FindPW" style="display:none">
 		<input type ="hidden" name = "UserMode" value="1">
 
@@ -37,7 +32,7 @@
 		<a class = "User_LoginBtn" onclick="JS_FindPW()">
 			<span> 비밀번호 찾기 </span>
 		</a>
-	</form>
+	</form> -->
 
 	<!-- //////////////////////////////////// -->
 
@@ -54,14 +49,14 @@
 			}
 		}
 
-		function JS_FindPW(){
+/*		function JS_FindPW(){
 			if ($('[name=InputID]').val()=="") {
 				alert ("이름을 입력해주세요");
 				return false;
 			} else {
 				document.forms["FindPW"].submit();
 			}
-		}
+		}*/
 
 		function ChangeID(){
 	        if(document.getElementById("ID").className = 'NonSelectIDPW') {
@@ -73,7 +68,7 @@
 	        }
 	    }
 
-	    function ChangePW(){
+/*	    function ChangePW(){
 	        if(document.getElementById("PW").className = 'NonSelectIDPW') {
 	        	document.getElementById("ID").className = 'NonSelectIDPW';
 	            document.getElementById("PW").className = 'SelectIDPW';
@@ -81,7 +76,7 @@
 	            $('#FindID').css("display","block");
 	            $('#FindPW').css("display","none");
 	        }
-	    }
+	    }*/
 	</script>
 
 </body>

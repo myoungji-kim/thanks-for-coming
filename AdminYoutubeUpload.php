@@ -54,7 +54,7 @@
 
 			<div class = "Btn">
 				<a class = "Text" onclick = "history.back();"> 취소 </a>
-				<a class = "Text"> 예약 </a>
+				<!-- <a class = "Text"> 예약 </a> -->
 				<input type = "button" id = "YoutubeSave" onclick = "Youtube_Save()" class = "Upload" value="<?=$BtnUpload?>">
 			</div>
 		</div>

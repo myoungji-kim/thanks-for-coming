@@ -3,17 +3,6 @@
 <? include "Connect.php";?>
 <? include "User_Menu.php";?>
 
-	<div class = "HashTag">
-		<ul>
-			<a class = "Select">  <span class = "MintText"> #여기서 </span> </a>
-			<a class = "NonSelect"> <span class = "GrayText"> #인스타 </span> </a>
-			<a class = "NonSelect"> <span class = "GrayText"> #사진을 </span> </a>
-			<a class = "NonSelect"> <span class = "GrayText"> #볼 수 </span> </a>
-			<a class = "NonSelect"> <span class = "GrayText"> #있어요 </span> </a>
-			<a class = "NonSelect"> <span class = "GrayText"> (●'◡'●) </span> </a>
-		</ul>
-	</div>
-
 	<?
 		$sql="SELECT * FROM Insta WHERE Insta_No";
         $result=mysqli_query($connect,$sql);
@@ -34,10 +23,6 @@
 				<div class = "TextBox">
 					<div class = "LeftBox"> 
 						<span class = "TagText"> <?=$row['Insta_Text']?> </span>
-					</div>
-					<div class = "RightBox"> 
-						<div class = "IconHeart"> <img src = "./asset/images/IconHeart.svg"> </div>
-						<div class = "IconShare"> <img src = "./asset/images/IconShare.svg"> </div>
 					</div>
 				</div>
 			</div>

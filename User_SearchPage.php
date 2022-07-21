@@ -16,12 +16,6 @@
 				<a class = "IconSearch" onclick = "SearchBtn()"> <img src = "./asset/images/iconSearch_2.svg"></a>
 			</div>
 		</div>
-		<div class = "RecommendBox">
-			<div class = "TextBox"> <span class = "Text"> 추천 검색어 </span> </div>
-			<a class = "RoundRect"> 
-				<span class = "Text"> Kim Myoung Ji </span>
-			</a>
-		</div>
 	</div>
 </form>
 
