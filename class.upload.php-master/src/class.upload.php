@@ -1759,8 +1759,8 @@ class Upload {
         $this->image_resize             = false;    // resize the image
         $this->image_convert            = '';       // convert. values :''; 'png'; 'jpeg'; 'gif'; 'bmp'
 
-        $this->image_x                  = 150;
-        $this->image_y                  = 150;
+        $this->image_x                  = 644;
+        $this->image_y                  = 644;
         $this->image_ratio              = false;    // keeps aspect ratio within x and y dimensions
         $this->image_ratio_crop         = false;    // keeps aspect ratio within x and y dimensions, filling the space
         $this->image_ratio_fill         = false;    // keeps aspect ratio within x and y dimensions, fitting the image in the space
